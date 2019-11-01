@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 주석. 단, 두번째 줄부터 사용 가능함 -->
+<!-- 
+	web-app : root tag (=root Element)
+			  1개만 사용가능함, so 모든 코딩은 이 안쪽에 해야함
+	xmlns : xml name space
+	        xmlns="http://xmlns.jcp.org/xml/ns/javaee" ==== default xml name
+	xml:xxxx : default는 아니고 뒤에붙은 xxxx에...
+-->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>jsp_study1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- error 페이지 설정
+  <error-page>
+	<error-code>404</error-code>
+	<location>/chap09/error404.jsp</location>
+  </error-page>
+  
+  <error-page>
+	<error-code>500</error-code>
+	<location>/chap09/error500.jsp</location>
+  </error-page>
+
+  <error-page>
+	<exception-type> java.lang.NumberFormatException</exception-type>
+	<location>/chap09/errorNumberFormat.jsp</location>
+  </error-page>
+  -->
+   
+</web-app>
